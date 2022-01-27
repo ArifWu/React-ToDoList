@@ -6,6 +6,10 @@
     margin: 50px auto;
 }
 
+body {
+    background: #FB9966;
+}
+
 .title {
     text-align: center;
 }

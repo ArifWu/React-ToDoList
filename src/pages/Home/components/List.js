@@ -1,7 +1,7 @@
 import React from 'react';
 import Item from './Item'
 
-const List = ({ listData, deleteData }) => {
+const List = ({ listData, deleteData, submittingStatus }) => {
     return (
       <div className="list">
         {
@@ -15,6 +15,7 @@ const List = ({ listData, deleteData }) => {
                 date={date}
                 time={time}
                 deleteData={deleteData}
+                submittingStatus={submittingStatus}
               />
             );
           })
